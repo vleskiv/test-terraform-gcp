@@ -5,7 +5,7 @@ variable "ssh_public_key_filepath" {
 }
 
 variable "name" { default = "nexus" }
-variable "project" { default = "leskiv-terraform" }
+variable "project" { default = "test-terraform-gcp" }
 variable "instance_type" { default = "n1-standard-1" }
 variable "region" { default = "us-west1" }
 variable "user" { default = "ubuntu" }
