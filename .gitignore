@@ -2,3 +2,4 @@ credentials.json
 .terraform
 *.pem
 *.pub
+*.tfstate*
