@@ -100,7 +100,7 @@ resource "google_compute_instance_template" "webserver_instance_template" {
   }
 
 #  metadata_startup_script = "${data.template_file.init.rendered}"
-  metadata_startup_script = "sudo apt-get update && sudo apt install nginx && sudo service nginx start"
+  metadata_startup_script = "sudo apt-get update && sudo apt install -y nginx htop && sudo service nginx start"
 
   tags = ["http-server"]
 
